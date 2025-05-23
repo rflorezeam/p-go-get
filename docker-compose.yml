@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  libro-read:
+    build: .
+    container_name: libro-read
+    ports:
+      - "8082:8082"
+    networks:
+      - libro-network
+
+networks:
+  libro-network:
+    external: true 
