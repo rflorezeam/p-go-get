@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: libro-read
-        image: rflorezeam/libro-update:sha-aa8082a
+        image: rflorezeam/libro-read:sha-6dceaf9
         ports:
         - containerPort: 8082
         env:
